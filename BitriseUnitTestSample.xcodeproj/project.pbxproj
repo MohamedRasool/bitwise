@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1857463F20C58711002B5F6E /* untitled folder in Resources */ = {isa = PBXBuildFile; fileRef = 1857463E20C58710002B5F6E /* untitled folder */; };
 		BABE89F019B9C84C00F2DC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABE89EF19B9C84C00F2DC40 /* Foundation.framework */; };
 		BABE89F219B9C84C00F2DC40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABE89F119B9C84C00F2DC40 /* CoreGraphics.framework */; };
 		BABE89F419B9C84C00F2DC40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABE89F319B9C84C00F2DC40 /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1857463E20C58710002B5F6E /* untitled folder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "untitled folder"; sourceTree = SOURCE_ROOT; };
 		BABE89EC19B9C84C00F2DC40 /* BitriseUnitTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseUnitTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABE89EF19B9C84C00F2DC40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BABE89F119B9C84C00F2DC40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +132,7 @@
 				BABE8A0319B9C84C00F2DC40 /* Main_iPhone.storyboard */,
 				BABE8A0619B9C84C00F2DC40 /* Main_iPad.storyboard */,
 				BABE8A0C19B9C84C00F2DC40 /* MasterViewController.h */,
+				1857463E20C58710002B5F6E /* untitled folder */,
 				BABE8A0D19B9C84C00F2DC40 /* MasterViewController.m */,
 				BABE8A0F19B9C84C00F2DC40 /* DetailViewController.h */,
 				BABE8A1019B9C84C00F2DC40 /* DetailViewController.m */,
@@ -216,6 +219,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Bitrise;
 				TargetAttributes = {
+					BABE89EB19B9C84C00F2DC40 = {
+						DevelopmentTeam = A79T4B24DZ;
+					};
 					BABE8A1719B9C84C00F2DC40 = {
 						TestTargetID = BABE89EB19B9C84C00F2DC40;
 					};
@@ -245,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857463F20C58711002B5F6E /* untitled folder in Resources */,
 				BABE8A0819B9C84C00F2DC40 /* Main_iPad.storyboard in Resources */,
 				BABE8A1319B9C84C00F2DC40 /* Images.xcassets in Resources */,
 				BABE8A0519B9C84C00F2DC40 /* Main_iPhone.storyboard in Resources */,
@@ -406,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = A79T4B24DZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitriseUnitTestSample/BitriseUnitTestSample-Prefix.pch";
 				INFOPLIST_FILE = "BitriseUnitTestSample/BitriseUnitTestSample-Info.plist";
@@ -419,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = A79T4B24DZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitriseUnitTestSample/BitriseUnitTestSample-Prefix.pch";
 				INFOPLIST_FILE = "BitriseUnitTestSample/BitriseUnitTestSample-Info.plist";
@@ -486,6 +495,7 @@
 				BABE8A2C19B9C84C00F2DC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BABE8A2D19B9C84C00F2DC40 /* Build configuration list for PBXNativeTarget "BitriseUnitTestSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +504,7 @@
 				BABE8A2F19B9C84C00F2DC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
