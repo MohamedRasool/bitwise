@@ -223,6 +223,7 @@
 						DevelopmentTeam = A79T4B24DZ;
 					};
 					BABE8A1719B9C84C00F2DC40 = {
+						DevelopmentTeam = A79T4B24DZ;
 						TestTargetID = BABE89EB19B9C84C00F2DC40;
 					};
 				};
@@ -440,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitriseUnitTestSample.app/BitriseUnitTestSample";
+				DEVELOPMENT_TEAM = A79T4B24DZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -462,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitriseUnitTestSample.app/BitriseUnitTestSample";
+				DEVELOPMENT_TEAM = A79T4B24DZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
